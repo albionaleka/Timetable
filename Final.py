@@ -4,7 +4,6 @@ from CTkListbox import *
 import os
 import csv
 
-# path: D:\ictpython\Final\sampledata.csv
 customtkinter.set_appearance_mode("system")
 
 
@@ -188,8 +187,6 @@ class App(customtkinter.CTk):
         file = open("timetable.csv", "w")
         file.truncate()
         file.close()
-
-        # os.remove("timetable.csv")
 
 
     def save(self):
